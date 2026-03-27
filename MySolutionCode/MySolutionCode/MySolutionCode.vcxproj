@@ -148,6 +148,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Problem_1-2_MultiplicationTable.cpp" />
+    <ClCompile Include="Problem_2-2_CheckPrime.cpp" />
+    <ClCompile Include="Problem_3-2_CheckPerfectNum.cpp" />
+    <ClCompile Include="Problem_4-2_PerfectNum1toN.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

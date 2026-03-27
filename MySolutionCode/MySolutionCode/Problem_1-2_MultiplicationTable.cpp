@@ -20,8 +20,9 @@ void printcol() {
     }
 }
 
+/*
 int main()
 {
     printHeader();
     printcol();
-}
+}*/
