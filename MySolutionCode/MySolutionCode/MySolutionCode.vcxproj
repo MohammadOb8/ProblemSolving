@@ -176,6 +176,7 @@
     <ClCompile Include="Problem_32-2_CopyArrayInReverseOrder.cpp" />
     <ClCompile Include="Problem_33-2_FillArrayWithKeys.cpp" />
     <ClCompile Include="Problem_34-2_ReturnNumberIndexArray.cpp" />
+    <ClCompile Include="Problem_35-2_CheckNumberInArray.cpp" />
     <ClCompile Include="Problem_4-2_PerfectNum1toN.cpp" />
     <ClCompile Include="Problem_5-2_ReversedDigitsOrder.cpp" />
     <ClCompile Include="Problem_6-2_SumOfDigits.cpp" />
@@ -192,6 +193,7 @@
     <ClInclude Include="Problem_23-2_RandomArrayElements.h" />
     <ClInclude Include="Problem_26-2_SumRandomArray.h" />
     <ClInclude Include="Problem_28-2_CopyArray.h" />
+    <ClInclude Include="Problem_34-2_ReturnNumberIndexArray.h" />
     <ClInclude Include="Problem_4-2_PerfectNum1toN.h" />
     <ClInclude Include="Problem_0-2_ReadNum.h" />
     <ClInclude Include="Problem_1-2_MultiplicationTable.h" />

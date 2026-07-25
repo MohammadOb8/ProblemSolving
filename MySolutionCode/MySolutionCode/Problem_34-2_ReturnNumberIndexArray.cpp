@@ -16,7 +16,7 @@ int Searching_for_number(int arr[], int arrSize, int Searched_numbered) {
 	return -1;
 }
 
-
+/*
 int main() {
 
     srand((unsigned)time(NULL));
@@ -32,4 +32,4 @@ int main() {
 		cout << "the number found at postion: " << Founded_number << endl;
 		cout << "the number found its order: " << Founded_number + 1 << endl;
 	}
-}
+}*/

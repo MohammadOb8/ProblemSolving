@@ -120,6 +120,9 @@
     <ClCompile Include="Problem_34-2_ReturnNumberIndexArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem_35-2_CheckNumberInArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem_1-2_MultiplicationTable.h">
@@ -174,6 +177,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Problem_21-2_GenerateKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_34-2_ReturnNumberIndexArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
