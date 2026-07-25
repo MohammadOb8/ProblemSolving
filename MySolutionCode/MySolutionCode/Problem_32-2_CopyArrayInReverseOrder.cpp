@@ -15,7 +15,7 @@ void Reverse_Array(int arr[100], int RevArr[100], int arrLength)
         RevArr[i] = arr[arrLength-1-i];
     }
 }
-
+/*
 int main() {
 
     srand((unsigned)time(NULL));
@@ -30,4 +30,4 @@ int main() {
     Reverse_Array(Array, RevArray, arrLength);
     cout << "\nArray 2 elements:\n";
     PrintArray(RevArray, arrLength);
-}
+}*/

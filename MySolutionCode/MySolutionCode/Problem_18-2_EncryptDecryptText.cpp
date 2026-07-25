@@ -40,9 +40,9 @@ string DecryptText(string text) {
     }
     return text;
 }
-        
+/*
 int main()
 {
     DecryptText(EncryptText(ReadText()));
-}
+}*/
 

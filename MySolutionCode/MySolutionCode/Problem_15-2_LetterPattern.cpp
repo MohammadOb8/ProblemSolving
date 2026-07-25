@@ -15,10 +15,10 @@ void Letter_Pattern(int num) {
         cout << endl;
     }
 }
-
+/*
 int main()
 {
     int num = ReadNum("Enter Number: ");
     Letter_Pattern(num);
-}
+}*/
 

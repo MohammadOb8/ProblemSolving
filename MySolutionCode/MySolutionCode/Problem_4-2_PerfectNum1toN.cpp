@@ -1,13 +1,21 @@
 #include <iostream>
 #include<string>
+#include "Problem_0-2_ReadNum.h"
 using namespace std;
 
-int ReadNum2(string msg) {
-    int num;
-    cout << msg << endl;
-    cin >> num;
-    return num;
-}
+/*
+int ReadNum(string Message)
+{
+    int Number = 0;
+
+    do
+    {
+        cout << Message << endl;
+        cin >> Number;
+    } while (Number <= 0);
+
+    return Number;
+}*/
 
 int Sum_of_Divisors(int num) {
 
@@ -41,9 +49,9 @@ void printResult(int num) {
     }
 }
 
-
+/*
 int main()
 {
     int num = ReadNum2("Enter Number");
     printResult(num);
-}
+}*/

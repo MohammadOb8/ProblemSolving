@@ -1,20 +1,22 @@
 #include <iostream>   
 #include <string>    
+#include "Problem_0-2_ReadNum.h"
 using namespace std; 
 
 
-int ReadNum7(string Message)
+/*
+int ReadNum(string Message)
 {
-    int Number = 0;  
-   
+    int Number = 0;
+
     do
     {
-        cout << Message << endl; 
-        cin >> Number;         
-    } while (Number <= 0);       
+        cout << Message << endl;
+        cin >> Number;
+    } while (Number <= 0);
 
-    return Number;  
-}
+    return Number;
+}*/
 
 int ReverseNumber(int num) {
 
@@ -31,8 +33,8 @@ int ReverseNumber(int num) {
     return num2;
     
 }
-
+/*
 int main()
 {
    cout<< ReverseNumber(ReadNum7("Enter Numbr: "));
-}
+}*/

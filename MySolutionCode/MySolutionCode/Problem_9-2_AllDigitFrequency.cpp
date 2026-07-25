@@ -1,9 +1,12 @@
 #include <iostream>   
 #include <string>    
+#include "Problem_0-2_ReadNum.h"
+#include "Problem_8-2_DigitFrequency.h"
 using namespace std;
 
 
-int ReadNum9(string Message)
+/*
+int ReadNum(string Message)
 {
     int Number = 0;
 
@@ -14,9 +17,10 @@ int ReadNum9(string Message)
     } while (Number <= 0);
 
     return Number;
-}
+}*/
 
-int DigitFrequency2(int num, short digit) {
+/*
+int DigitFrequency(int num, short digit) {
 
     int Remainder = 0;
     int counter = 0;
@@ -34,23 +38,24 @@ int DigitFrequency2(int num, short digit) {
 
     return counter;
 
-}
+}*/
 
 void AllDigitFreq(int num) {
     cout << endl;
     for (int i = 0; i < 10; i++) {
 
         short digitFreq = 0;
-        digitFreq = DigitFrequency2(num, i);
+        digitFreq = DigitFrequency(num, i);
         if (digitFreq > 0) {
             cout << "Digit " << i << " Frequency is " << digitFreq << " Time(s)" << endl;;
         }
     }
 }
 
+/*
 int main()
 {
     int num = ReadNum9("Enter Number: ");
     AllDigitFreq(num);
    
-}
+}*/

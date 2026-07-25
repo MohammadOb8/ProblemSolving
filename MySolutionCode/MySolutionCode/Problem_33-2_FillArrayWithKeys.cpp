@@ -25,6 +25,7 @@ void PrintStringArray(string arr[100], int arrLength)
     cout << "\n";
 }
 
+/*
 int main() {
 
     srand((unsigned)time(NULL));
@@ -35,4 +36,4 @@ int main() {
     cout << "\nArray 1 Keys elements:\n";
     PrintStringArray(Array, arrLength);
 
-}
+}*/

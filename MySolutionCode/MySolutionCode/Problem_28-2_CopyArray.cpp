@@ -14,11 +14,10 @@ void Copy_Random_Array(int arr1[], int arr2[], int arrSize) {
 	for (int i = 0; i < arrSize; i++)
 	{
 		arr2[i] = arr1[i];
-		cout << "Element [" << i << "]: ";
-		cout << arr2[i] << endl;
 	}
 	
 }
+/*
 int main() {
 
 	srand((unsigned)time(NULL));
@@ -26,6 +25,8 @@ int main() {
 	int array2[100];
 	int arrSize = ReadNum("Enter Number of array elements: ");
 	Random_Array_elements(array1, arrSize);
+	PrintArray(arrElements, arrSize);
 	cout << "copy array: " << endl;
 	Copy_Random_Array(array1, array2, arrSize);
 }
+*/

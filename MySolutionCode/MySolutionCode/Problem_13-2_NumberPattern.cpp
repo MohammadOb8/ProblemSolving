@@ -15,11 +15,11 @@ void Number_Pattern(int num) {
     }
 
 }
-
+/*
 int main()
 {
     int num = ReadNum("Enter Number: ");
     Number_Pattern(num);
 
-}
+}*/
 

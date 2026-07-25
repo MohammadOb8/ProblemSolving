@@ -10,14 +10,33 @@ void Random_Array_elements(int arr[], short arrSize)
 {
 	for (int i = 0; i < arrSize; i++)
 	{
-		cout << "Element [" << i << "]: " << RandomNumber(1, 100) << endl;;
+		
+		arr[i] = RandomNumber(1, 100);
+	
 	}
 }
 
+void FillArrayWith1toN(int arr[100], int arrLength)
+{
+
+	for (int i = 0; i < arrLength; i++)
+		arr[i] = i + 1;
+}
+
+void PrintArray(int arr[100], int arrLength)
+{
+
+	for (int i = 0; i < arrLength; i++)
+		cout << arr[i] << " ";
+
+	cout << "\n";
+}
+/*
 int main() {
 
 	srand((unsigned)time(NULL));
 	int arrElements[100];
 	int arrSize = ReadNum("Enter Number of array elements: ");
 	Random_Array_elements(arrElements, arrSize);
-}
+	PrintArray(arrElements, arrSize);
+}*/

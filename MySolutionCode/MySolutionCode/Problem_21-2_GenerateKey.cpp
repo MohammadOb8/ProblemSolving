@@ -29,14 +29,14 @@ string GenerateKey(int NumOfKeys)
 void GeneratKeys(short NumOfKeys) {
 	for (int i = 1; i <= NumOfKeys; i++)
 	{
-		cout << "Key [" << i << "]: ";
-		cout << GenerateKey(NumOfKeys) << endl;
+		//cout << "Key [" << i << "]: ";
+		GenerateKey(NumOfKeys);
 	}
 }
-
+/*
 int main() {
 
     srand((unsigned)time(NULL));
 	GeneratKeys(ReadNum("Enter number of keys to generte: "));
 
-}
+}*/

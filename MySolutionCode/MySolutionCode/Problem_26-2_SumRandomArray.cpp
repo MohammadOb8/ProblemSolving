@@ -15,11 +15,13 @@ int Sum_Random_Array_Element(int arr[], int arrSize) {
 	}
 	return sum;
 }
+/*
 int main() {
 
 	srand((unsigned)time(NULL));
 	int arrElements[100];
 	int arrSize = ReadNum("Enter Number of array elements: ");
 	Random_Array_elements(arrElements, arrSize);
+	PrintArray(arrElements, arrSize)
 	cout << "Sum of Elements: " << Sum_Random_Array_Element(arrElements, arrSize);
-}
+}*/

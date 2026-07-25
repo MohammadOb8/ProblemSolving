@@ -1,18 +1,29 @@
 #include <iostream>
 #include<string>
+#include "Problem_0-2_ReadNum.h"
+#include "Problem_2-2_CheckPrime.h"
 using namespace std;
 
+/*
 enum enuPrime
 {
     Prime = 1, notPrime = 2
 };
+*/
 
-float ReadNum(string msg) {
-    float num;
-    cout << msg << endl;
-    cin >> num;
-    return num;
-}
+/*
+int ReadNum(string Message)
+{
+    int Number = 0;
+
+    do
+    {
+        cout << Message << endl;
+        cin >> Number;
+    } while (Number <= 0);
+
+    return Number;
+}*/
 
 enuPrime checkPrime(int num) {
 

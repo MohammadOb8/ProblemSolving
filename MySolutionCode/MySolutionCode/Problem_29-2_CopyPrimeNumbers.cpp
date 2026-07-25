@@ -29,7 +29,7 @@ void Copy_Only_Primary_Numbers(int arrSource[100], int arrDestination[100], int 
     arr2Lenght = Counter;
 }
 
-
+/*
 int main() {
 
 	srand((unsigned)time(NULL));
@@ -46,3 +46,4 @@ int main() {
     cout << "\nPrime Numbers in Array2:\n";
     PrintArray(array2, arr2Size);
 }
+*/

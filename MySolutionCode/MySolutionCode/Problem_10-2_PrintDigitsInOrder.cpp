@@ -1,51 +1,19 @@
 #include <iostream>   
 #include <string>    
+#include "Problem_0-2_ReadNum.h"
+#include "Problem_5-2_ReversedDigitsOrder.h"
+#include "Problem_7-2_ReverseNumber.h"
 using namespace std;
 
-
-int ReadNum10(string Message)
-{
-    int Number = 0;
-
-    do
-    {
-        cout << Message << endl;
-        cin >> Number;
-    } while (Number <= 0);
-
-    return Number;
+void PrintDigitsInOrder() {
+    int num = ReadNum("Enter Number: ");
+    RevertNum(ReverseNumber(num));
 }
 
-int ReverseNum(int num) {
-
-    int Remainder = 0;
-    int num2 = 0;
-
-    while (num > 0)
-    {
-        Remainder = num % 10;
-        num = num / 10;
-        num2 = num2 * 10 + Remainder;
-    }
-
-    return num2;
-
-}
-
-void PrintDigitsOrder(int num) {
-
-    int Remainder = 0;
-    while (num > 0)
-    {
-        Remainder = num % 10;
-        num = num / 10;
-        cout << Remainder << endl;
-    }
-}
-
+/*
 int main()
 {
-    int num = ReadNum10("Enter Number: ");
-    PrintDigitsOrder(ReverseNum(num));
+    PrintDigitsInOrder();
 
-}
+}*/
+

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -147,10 +147,61 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Problem_0-2_ReadNum.cpp" />
     <ClCompile Include="Problem_1-2_MultiplicationTable.cpp" />
+    <ClCompile Include="Problem_10-2_PrintDigitsInOrder.cpp" />
+    <ClCompile Include="Problem_11-2_PalindromeNum.cpp" />
+    <ClCompile Include="Problem_12-2_InvertedPattern.cpp" />
+    <ClCompile Include="Problem_13-2_NumberPattern.cpp" />
+    <ClCompile Include="Problem_14-2_InvertedLetterPattern.cpp" />
+    <ClCompile Include="Problem_15-2_LetterPattern.cpp" />
+    <ClCompile Include="Problem_16-2_AAAtoZZZ.cpp" />
+    <ClCompile Include="Problem_17-2_LetterPassword.cpp" />
+    <ClCompile Include="Problem_18-2_EncryptDecryptText.cpp" />
+    <ClCompile Include="Problem_19-2_RandomNum1toN.cpp" />
     <ClCompile Include="Problem_2-2_CheckPrime.cpp" />
+    <ClCompile Include="Problem_20-2_RandomCases.cpp" />
+    <ClCompile Include="Problem_21-2_GenerateKey.cpp" />
+    <ClCompile Include="Problem_22-2_RepeatedElementsCountInArray.cpp" />
+    <ClCompile Include="Problem_23-2_RandomArrayElements.cpp" />
+    <ClCompile Include="Problem_24-2_MaxRandomArray.cpp" />
+    <ClCompile Include="Problem_25-2_MinRandomArray.cpp" />
+    <ClCompile Include="Problem_26-2_SumRandomArray.cpp" />
+    <ClCompile Include="Problem_27-2_AvgRandomArray.cpp" />
+    <ClCompile Include="Problem_28-2_CopyArray.cpp" />
+    <ClCompile Include="Problem_29-2_CopyPrimeNumbers.cpp" />
     <ClCompile Include="Problem_3-2_CheckPerfectNum.cpp" />
+    <ClCompile Include="Problem_30-2_SumTwoArrays.cpp" />
+    <ClCompile Include="Problem_31-2_ShuffledArray.cpp" />
+    <ClCompile Include="Problem_32-2_CopyArrayInReverseOrder.cpp" />
+    <ClCompile Include="Problem_33-2_FillArrayWithKeys.cpp" />
+    <ClCompile Include="Problem_34-2_ReturnNumberIndexArray.cpp" />
     <ClCompile Include="Problem_4-2_PerfectNum1toN.cpp" />
+    <ClCompile Include="Problem_5-2_ReversedDigitsOrder.cpp" />
+    <ClCompile Include="Problem_6-2_SumOfDigits.cpp" />
+    <ClCompile Include="Problem_7-2_ReverseNumber.cpp" />
+    <ClCompile Include="Problem_8-2_DigitFrequency.cpp" />
+    <ClCompile Include="Problem_9-2_AllDigitFrequency.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problem_10-2_PrintDigitsInOrder.h" />
+    <ClInclude Include="Problem_16-2_AAAtoZZZ.h" />
+    <ClInclude Include="Problem_19-2_RandomNum1toN.h" />
+    <ClInclude Include="Problem_20-2_RandomCases.h" />
+    <ClInclude Include="Problem_21-2_GenerateKeys.h" />
+    <ClInclude Include="Problem_23-2_RandomArrayElements.h" />
+    <ClInclude Include="Problem_26-2_SumRandomArray.h" />
+    <ClInclude Include="Problem_28-2_CopyArray.h" />
+    <ClInclude Include="Problem_4-2_PerfectNum1toN.h" />
+    <ClInclude Include="Problem_0-2_ReadNum.h" />
+    <ClInclude Include="Problem_1-2_MultiplicationTable.h" />
+    <ClInclude Include="Problem_2-2_CheckPrime.h" />
+    <ClInclude Include="Problem_3-2_CheckPerfectNum.h" />
+    <ClInclude Include="Problem_5-2_ReversedDigitsOrder.h" />
+    <ClInclude Include="Problem_6-2_SumOfDigits.h" />
+    <ClInclude Include="Problem_7-2_ReverseNumber.h" />
+    <ClInclude Include="Problem_8-2_DigitFrequency.h" />
+    <ClInclude Include="Problem_9-2_AllDigitFrequency.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,7 +15,7 @@ void Sum_Two_Arrays(int arr1[100], int arr2[100], int arrSum[100], int arrSize )
         arrSum[i] = arr1[i] + arr2[i];
     }
 }
-
+/*
 int main() {
 
     srand((unsigned)time(NULL));
@@ -36,3 +36,4 @@ int main() {
     cout << "\nSum of array1 & array2 elements:\n";
     PrintArray(arrays_Sum, arrSize);
 }
+*/

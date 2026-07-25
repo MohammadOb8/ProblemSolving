@@ -12,11 +12,13 @@ float Avg_Random_Array_Element(int arr[], int arrSize) {
 
 	return (float)Sum_Random_Array_Element(arr, arrSize)/arrSize;
 }
+/*
 int main() {
 
 	srand((unsigned)time(NULL));
 	int arrElements[100];
 	int arrSize = ReadNum("Enter Number of array elements: ");
 	Random_Array_elements(arrElements, arrSize);
+	PrintArray(arrElements, arrSize);
 	cout << "Avg of Elements: " << Avg_Random_Array_Element(arrElements, arrSize);
-}
+}*/

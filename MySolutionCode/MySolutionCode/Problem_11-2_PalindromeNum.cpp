@@ -14,10 +14,10 @@ void Check_Palindrome_Number() {
         cout << "No, its not a Palindrome Number" << endl;
     }
 }
-
+/*
 int main()
 {
     Check_Palindrome_Number();
 
-}
+*/
 

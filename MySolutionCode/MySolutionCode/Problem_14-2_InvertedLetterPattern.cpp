@@ -15,10 +15,10 @@ void Inverted_Letter_Pattern(int num) {
         cout << endl;
     }
 }
-
+/*
 int main()
 {
     int num = ReadNum("Enter Number: ");
     Inverted_Letter_Pattern(num);
-}
+}*/
 

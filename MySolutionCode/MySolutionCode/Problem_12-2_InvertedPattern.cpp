@@ -15,11 +15,11 @@ void Inverted_Pattern(int num) {
     }
 
 }
-
+/*
 int main()
 {
     int num = ReadNum("Enter Number: ");
     Inverted_Pattern(num);
 
-}
+}*/
 

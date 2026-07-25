@@ -30,7 +30,7 @@ void Check_Elements(int arr[], int arrsize, short element)
 	for (int i = 0; i < arrsize; i++) { cout << arr[i]<<" "; };
 	cout <<endl << element << " is repeated " << counter << " Time(s)";
 }
-
+/*
 int main() {
 	
 	int arrElements[100];
@@ -38,5 +38,5 @@ int main() {
 	Input_Array_elements(arrElements, arrSize);
 	int Element = ReadNum("Enter the Number you want to check: ");
 	Check_Elements(arrElements, arrSize, Element);
-
 }
+	*/

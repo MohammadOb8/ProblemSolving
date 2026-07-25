@@ -48,10 +48,10 @@ bool Check_Letter_Password(string password) {
     }
     return false;
 }
-
+/*
 int main()
 {
 
     Check_Letter_Password(ReadPassword());
-}
+}*/
 

@@ -15,6 +15,15 @@ int ReadNum(string Message)
 
     return Number;
 }
+
+
+void Swap(int& A, int& B)
+{
+    int temp = A;
+    A = B;
+    B = temp;
+}
+
 /*
 int main()
 {
